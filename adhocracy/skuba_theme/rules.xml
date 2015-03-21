@@ -66,7 +66,7 @@
         <xsl:attribute name="width"><xsl:value-of select="@width" /></xsl:attribute>
         <xsl:attribute name="height"><xsl:value-of select="@height" /></xsl:attribute>
         <xsl:attribute name="alt">Click here to load video!</xsl:attribute>
-        <xsl:attribute name="src">/static_theme/static/images/ypart-video-preview.png</xsl:attribute>
+        <xsl:attribute name="src">/static_theme/static/images/skuba-video-preview.png</xsl:attribute>
       </xsl:element>
     </xsl:element>
   </replace>
@@ -112,10 +112,10 @@
 
     <!--Logo and Topnav-->
       <!-- if body.compact -->
-      <replace content="//a[@id='logo']/img/attribute::src" if-content="//body[contains(@class, 'compact')]"><xsl:attribute name="src">/static_theme/static/images/logo_ypart_small.png</xsl:attribute></replace>
+      <replace content="//a[@id='logo']/img/attribute::src" if-content="//body[contains(@class, 'compact')]"><xsl:attribute name="src">/static_theme/static/images/logo_skuba_small.png</xsl:attribute></replace>
       <!-- if not body.compact -->
       <rules if-content="not(//body[contains(@class, 'compact')])">
-        <replace content="//a[@id='logo']/img/attribute::src"><xsl:attribute name="src">/static_theme/static/images/logo_ypart_large.png</xsl:attribute></replace>
+        <replace content="//a[@id='logo']/img/attribute::src"><xsl:attribute name="src">/static_theme/static/images/logo_skuba_large.png</xsl:attribute></replace>
       </rules>
       <drop css:content="#topnav .follow" />
 
