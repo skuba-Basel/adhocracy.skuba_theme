@@ -3,9 +3,9 @@ import os
 
 version = '1.0'
 
-setup(name='adhocracy.ypart_theme',
+setup(name='adhocracy.skuba_theme',
       version=version,
-      description="Ypart adhocracy theme, diazo based, merges in wordpress.",
+      description="Skuba adhocracy theme, diazo based, merges in wordpress.",
       long_description=open("README.txt").read() + "\n" +
                        open(os.path.join("docs", "HISTORY.txt")).read(),
       # Get more strings from
@@ -14,8 +14,8 @@ setup(name='adhocracy.ypart_theme',
         "Programming Language :: Python",
         ],
       keywords='',
-      author='Joscha Krutzki',
-      author_email='joka@jokasis.de',
+      author='Joscha Krutzki, Pat Mächler',
+      author_email='joka@jokasis.de, p.maechler@iwf.ch',
       url='',
       license='GPL',
       packages=find_packages(exclude=['ez_setup']),
