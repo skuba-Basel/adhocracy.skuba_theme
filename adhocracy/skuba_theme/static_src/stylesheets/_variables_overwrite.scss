@@ -1,4 +1,4 @@
-$primary-color: #134d7f;
+$primary-color: #42d4b7; //#134d7f;
 $button-color: $primary-color;
 $register-color: $button-color;
 $header-color: adjust-hue(saturate(darken($primary-color, 13.5%), 5%), 15deg);
