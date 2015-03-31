@@ -219,7 +219,7 @@
     <xi:include href="rules_wordpress_javascript.xml" />
 
     <!--Fix links-->
-    <replace content="//a[contains(@href, '/static/about.html')]/attribute::href" ><xsl:attribute name="href">/_pages/ueber_uns/das-projekt</xsl:attribute></replace>
+    <replace content="//a[contains(@href, '/static/about.html')]/attribute::href" ><xsl:attribute name="href">/static/aboutt</xsl:attribute></replace>
 
   </rules>
 </rules>
