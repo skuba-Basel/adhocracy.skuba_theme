@@ -177,3 +177,20 @@ footer * li {
 html #nav .hlist > ul > li.current > a {
   color: #000 !important; /* show current active nav link in black */
 }
+
+
+/* use really big titles for instances */
+.content_list.instances_pager * .link {
+  font-size: 40px;
+}
+
+/* align image to big titles */
+.content_list.instances_pager .content_box img{
+  top: 16px;
+  position:relative;
+}
+
+/* use a lighter color for the background of even cells due to the light link color*/
+#col1 .content_list > li:nth-child(even), #left_block .content_list > li:nth-child(even) {
+  background: #fafafa;
+}
