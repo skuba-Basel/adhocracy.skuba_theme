@@ -124,19 +124,13 @@
       <a href="/_pages/ueber_uns" class="" rel="" title="Über uns" id="about_menu_link">Über Uns</a>
       <ul class="children">
             <li class="page_item">
-              <a href="/_pages/ueber_uns/das-projekt/" title="Das Projekt">Das Projekt</a>
+              <a href="/static/das-projekt/" title="Das Projekt">Das Projekt</a>
             </li>
             <li class="page_item">
-              <a href="/_pages/ueber_uns/liquid_democracy_ev/" title="Liquid Democracy e.V.">Liquid Democracy e.V.</a>
+              <a href="http://skuba.ch/skuba" title="skuba">skuba</a>
             </li>
             <li class="page_item">
-              <a href="/_pages/ueber_uns/projektpartner/" title="Projektpartner">Projektpartner</a>
-            </li>
-            <li class="page_item">
-              <a href="/_pages/ueber_uns/open_source/" title="Open Source">Open Source</a>
-            </li>
-            <li class="page_item">
-              <a href="/_pages/ueber_uns/kontakt/" title="">Kontakt</a>
+              <a href="http://skuba.ch/kontakt" title="">Kontakt</a>
             </li>
          </ul>
     </replace>
@@ -219,7 +213,7 @@
     <xi:include href="rules_wordpress_javascript.xml" />
 
     <!--Fix links-->
-    <replace content="//a[contains(@href, '/static/about.html')]/attribute::href" ><xsl:attribute name="href">/static/aboutt</xsl:attribute></replace>
+    <replace content="//a[contains(@href, '/static/about.html')]/attribute::href" ><xsl:attribute name="href">/static/about</xsl:attribute></replace>
 
   </rules>
 </rules>
