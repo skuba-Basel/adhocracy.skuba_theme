@@ -139,41 +139,6 @@
      <replace content="//li[@id='nav_home']/attribute::class"><xsl:attribute name="class"></xsl:attribute></replace>
     </rules>
 
-    <!--Navigation - engagieren-->
-    <replace css:content="li#nav_dummy > a">
-        <a href="/_pages/aktiv-werden/" title="Aktiv werden">Aktiv werden</a>
-        <ul class="children">
-            <li class="page_item">
-              <a href="https://ypart.eu/_pages/aktiv-werden/jugendringe-und-jugendverbaende/" title="Jugendringe und Jugendverbände">Jugendringe und Jugendverbände</a>
-            </li>
-            <li class="page_item">
-              <a href="https://ypart.eu/_pages/aktiv-werden/jugendparlamente-jugendrate-und-jugendforen/" title="Jugendparlamente, Jugendräte und Jugendforen">Jugendparlamente, Jugendräte und Jugendforen</a>
-            </li>
-            <li class="page_item">
-                <a href="https://ypart.eu/_pages/aktiv-werden/jugendvereine/" title="Jugendvereine, Jugendzentren und Jugendinitiativen">Jugendvereine, Jugendzentren und Jugendinitiativen</a>
-            </li>
-            <li class="page_item">
-                <a href="https://ypart.eu/_pages/aktiv-werden/gemeinde-stadt-und-landrate/" title="Gemeinde-, Stadt- und Landräte">Gemeinde-, Stadt- und Landräte</a>
-            </li>
-            <li class="page_item">
-                <a href="https://ypart.eu/_pages/aktiv-werden/jugendamt-und-jugendhilfeausschuss/" title="Jugendämter und Jugendhilfeausschüsse">Jugendämter und Jugendhilfeausschüsse</a>
-            </li>
-            <li class="page_item">
-                <a href="https://ypart.eu/_pages/aktiv-werden/schulen-und-bildungseinrichtungen/" title="Schulen und Bildungseinrichtungen">Schulen und Bildungseinrichtungen</a>
-            </li>
-            <li class="page_item">
-                <a href="https://ypart.eu/_pages/aktiv-werden/unis-und-fachhochschulen/" title="Universitäten und Fachhochschulen">Universitäten und Fachhochschulen</a>
-            </li>
-         </ul>
-    </replace>
-    <replace content="//li[@id='nav_dummy']/attribute::style"><xsl:attribute name="style"></xsl:attribute></replace>
-    <rules if-path="/_pages/weiterentwicklung">
-      <replace content="//li[@id='nav_dummy']/attribute::class"><xsl:attribute name="class">current</xsl:attribute></replace>
-      <replace content="//li[@id='nav_help']/attribute::class"><xsl:attribute name="class"></xsl:attribute></replace>
-      <replace content="//li[@id='nav_home']/attribute::class"><xsl:attribute name="class"></xsl:attribute></replace>
-      <replace content="//li[@id='nav_instances']/attribute::class"><xsl:attribute name="class"></xsl:attribute></replace>
-    </rules>
-
     <!--Navigation - help-->
     <replace css:content="li#nav_help > a">
         <a href="/_pages/hilfe" title="">Hilfe</a>
