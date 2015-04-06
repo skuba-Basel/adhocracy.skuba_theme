@@ -179,19 +179,10 @@
         <a href="/_pages/hilfe" title="">Hilfe</a>
         <ul class="children">
           <li class="page_item">
-            <a href="/_pages/hilfe/anleitungen" title="Anleitungen">Anleitungen</a>
+            <a href="/static/help" title="Anleitungen">Anleitungen</a>
           </li>
           <li class="page_item">
-            <a href="/_pages/hilfe/faq" title="FAQ">FAQ</a>
-          </li>
-          <li class="page_item">
-            <a href="/_pages/hilfe/formatierungshilfen" title="Formatierungshilfen">Formatierungshilfen</a>
-          </li>
-          <li class="page_item">
-            <a href="/_pages/hilfe/beratung_und_schulungen" title="Beratung und Schulungen">Beratung und Schulungen</a>
-          </li>
-          <li class="page_item">
-            <a href="/_pages/hilfe/technischer_support" title="Technischer Support">Technischer Support</a>
+            <a href="/static/formatting" title="Formatierungshilfen">Formatierungshilfen</a>
           </li>
         </ul>
     </replace>
