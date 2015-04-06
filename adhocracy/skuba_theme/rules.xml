@@ -102,9 +102,7 @@
       </xsl:for-each>
     </append>
 
-    <!--Fix wordpress links -->
-    <xi:include href="../../../adhocracy.wordpressbasic_theme/adhocracy/wordpressbasic_theme/rules_fixlinks.xml" />
-    <replace content="//a[@class='staticlink_imprint']/attribute::href" ><xsl:attribute name="href">/_pages/imprint</xsl:attribute></replace>
+      <!--<replace content="//a[@class='staticlink_imprint']/attribute::href" ><xsl:attribute name="href">/static/imprint</xsl:attribute></replace>-->
 
     <!--Body-->
     <replace theme="/html/body" content="/html/body" />
