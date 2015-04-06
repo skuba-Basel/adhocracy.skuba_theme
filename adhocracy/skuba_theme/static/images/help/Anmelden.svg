@@ -16,7 +16,10 @@
    width="960"
    height="460.3125"
    viewBox="0 0 960 460.3125"
-   sodipodi:docname="Anmelden.svg">
+   sodipodi:docname="Anmelden.svg"
+   inkscape:export-filename="/var/www/adhocracy/src/adhocracy.skuba_theme/adhocracy/skuba_theme/static/images/help/Anmelden.png"
+   inkscape:export-xdpi="300"
+   inkscape:export-ydpi="300">
   <metadata
      id="metadata8">
     <rdf:RDF>
@@ -40,16 +43,16 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1920"
-     inkscape:window-height="1028"
+     inkscape:window-width="690"
+     inkscape:window-height="480"
      id="namedview4"
      showgrid="false"
-     inkscape:zoom="1.2333333"
-     inkscape:cx="310.64155"
-     inkscape:cy="63.582077"
-     inkscape:window-x="0"
-     inkscape:window-y="0"
-     inkscape:window-maximized="1"
+     inkscape:zoom="0.30833333"
+     inkscape:cx="138.75456"
+     inkscape:cy="605.24091"
+     inkscape:window-x="618"
+     inkscape:window-y="255"
+     inkscape:window-maximized="0"
      inkscape:current-layer="svg2" />
   <image
      width="960"
