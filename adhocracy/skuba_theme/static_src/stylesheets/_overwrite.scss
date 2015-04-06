@@ -206,10 +206,10 @@ html #nav .hlist > ul > li.current > a {
 
 /*imrpove accordion behaviour to have "hyperlink style"*/
 .ui-accordion-header.ui-state-default.ui-accordion-icons.ui-corner-all{
-  text-decoration: underline;
-  color: blue;
+  text-decoration: underline !important;
+  color: blue !important;
 }
 
 .ui-accordion-header.ui-state-default.ui-accordion-icons.ui-corner-all.ui-state-hover {
-  color: darkblue;
+  color: darkblue !important;
 }
