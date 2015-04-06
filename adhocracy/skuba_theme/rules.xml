@@ -119,7 +119,7 @@
 
     <!--Navigation - about menu-->
     <replace css:content="li#nav_about > a">
-      <a href="/_pages/ueber_uns" class="" rel="" title="Über uns" id="about_menu_link">Über Uns</a>
+      <a href="/static/das-projekt" class="" rel="" title="Über uns" id="about_menu_link">Über Uns</a>
       <ul class="children">
             <li class="page_item">
               <a href="/static/das-projekt" title="Das Projekt">Das Projekt</a>
@@ -132,39 +132,28 @@
             </li>
          </ul>
     </replace>
-    <rules if-path="/_pages/das_projekt">
+    <rules if-path="/static/das-projekt">
      <replace content="//li[@id='nav_about']/attribute::class"><xsl:attribute name="class">current</xsl:attribute></replace>
      <replace content="//li[@id='nav_home']/attribute::class"><xsl:attribute name="class"></xsl:attribute></replace>
     </rules>
 
     <!--Navigation - help-->
     <replace css:content="li#nav_help > a">
-        <a href="/_pages/hilfe" title="">Hilfe</a>
+        <a href="/static/help" title="">Hilfe</a>
         <ul class="children">
           <li class="page_item">
-            <a href="/static/help" title="Anleitungen">Anleitungen</a>
+            <a href="/static/help" title="Anleitung">Anleitung</a>
           </li>
           <li class="page_item">
-            <a href="/static/formatting" title="Formatierungshilfen">Formatierungshilfen</a>
+            <a href="/static/formatting" title="Formatierungshilfe">Formatierungshilfe</a>
           </li>
         </ul>
     </replace>
-    <rules if-path="/_pages/hilfe">
+    <rules if-path="/static/help">
      <replace content="//li[@id='nav_help']/attribute::class"><xsl:attribute name="class">current</xsl:attribute></replace>
      <replace content="//li[@id='nav_home']/attribute::class"><xsl:attribute name="class"></xsl:attribute></replace>
      <replace content="//li[@id='nav_instances']/attribute::class"><xsl:attribute name="class"></xsl:attribute></replace>
     </rules>
-
-    <!--Content body and sidebar: aboutpage with merged wordpress-->
-    <rules if-path="/_pages/ueber_uns/das-projekt">
-      <replace content="//div[@id='main']/attribute::class" ><xsl:attribute name="class">with_wordpress_tabs</xsl:attribute></replace>
-      <drop css:content="#col1" attributes="id" />
-      <drop css:content="#col3" />
-    </rules>
-
-    <!--Content body and sidebar: wordpress pages (/_pages)-->
-    <xi:include href="../../../adhocracy.wordpressbasic_theme/adhocracy/wordpressbasic_theme/rules_pages.xml" />
-    <xi:include href="rules_wordpress_javascript.xml" />
 
     <!--Fix links-->
     <replace content="//a[contains(@href, '/static/about.html')]/attribute::href" ><xsl:attribute name="href">/static/about</xsl:attribute></replace>
