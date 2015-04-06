@@ -124,7 +124,7 @@
       <a href="/_pages/ueber_uns" class="" rel="" title="Über uns" id="about_menu_link">Über Uns</a>
       <ul class="children">
             <li class="page_item">
-              <a href="/static/das-projekt/" title="Das Projekt">Das Projekt</a>
+              <a href="/static/das-projekt" title="Das Projekt">Das Projekt</a>
             </li>
             <li class="page_item">
               <a href="http://skuba.ch/skuba" title="skuba">skuba</a>
