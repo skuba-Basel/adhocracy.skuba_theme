@@ -216,7 +216,7 @@ html #nav .hlist > ul > li.current > a {
 
 
 
-/* if we show the background image -- BEGIN */
+/* if we show the background image before login -- BEGIN */
 /* adapt the height of the div with the picture */
 .area-members.global_nav_home.not_logged_in * #col1 {
   height: 270px;
@@ -257,9 +257,15 @@ html #nav .hlist > ul > li.current > a {
   z-index: 9002; /* it's over 9000 too! */
 }
 
-/* if we show the background image -- END*/
+/* if we show the background image before login -- END*/
 
 
-.global_nav_home.logged_in {
-
+/* if we show the background image after login -- BEGIN */
+.global_nav_home.logged_in * #content-startpage {
+  height: 377px;
+  background-image: url("/static_theme/static/images/start.png");
+  width: 1000px;
+  background-size: 100% 100%;
 }
+
+/* if we show the background image after login -- END */
