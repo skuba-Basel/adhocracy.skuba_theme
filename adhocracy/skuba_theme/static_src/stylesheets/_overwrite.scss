@@ -217,13 +217,19 @@ html #nav .hlist > ul > li.current > a {
 
 
 /* if we show the background image before login -- BEGIN */
+/* hide any subheader */
+.not_logged_in * #subheader {
+  height: 0px !important;
+  visibility: collapse;
+}
+
 /* adapt the height of the div with the picture */
-.area-members.global_nav_home.not_logged_in * #col1 {
+.not_logged_in * #col1 {
   height: 270px;
 }
 
 /* show the explaining picture*/
-.area-members.global_nav_home.not_logged_in * #col1 div {
+.not_logged_in * #col1 div {
   background-image: url("/static_theme/static/images/intro-picture.png");
   width: 1056px;
   height: 426px;
@@ -234,28 +240,30 @@ html #nav .hlist > ul > li.current > a {
 }
 
 /* place the login button at a better position and over the already existing "Anmelden" */
-.area-members.global_nav_home.not_logged_in * #col1 div a {
+.not_logged_in * #col1 div a {
   position: relative;
   top: 60px;
   width: 110px;
 }
 
 /*hide other picture*/
-.area-members.global_nav_home.not_logged_in * #col1 div.form_wrapper {
+.not_logged_in * #col1 div.form_wrapper {
   background: inherit !important;
 }
 
 /* don't show submenus or "start" at the beginning */
-.area-members.global_nav_home.not_logged_in * .menu.hlist ul li ul.children ,
-.area-members.global_nav_home.not_logged_in * #nav_home {
+.not_logged_in * .menu.hlist ul li ul.children ,
+.not_logged_in * #nav_home {
   visibility: hidden !important;
 }
 
 
 /* make all links clickable in the footer */
-.area-members.global_nav_home.not_logged_in * div.page_wrapper {
+.not_logged_in * div.page_wrapper {
   z-index: 9002; /* it's over 9000 too! */
 }
+
+
 
 /* if we show the background image before login -- END*/
 
