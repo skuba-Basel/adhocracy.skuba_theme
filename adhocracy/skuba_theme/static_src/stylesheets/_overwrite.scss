@@ -225,13 +225,13 @@ html #nav .hlist > ul > li.current > a {
 }
 
 /* adapt the height of the div with the picture */
-.global_nav_home.not_logged_in * #col1,
+.area-members.global_nav_home.not_logged_in * #col1,
 .global_nav_instances.not_logged_in * #col1,{
   height: 270px;
 }
 
 /* show the explaining picture*/
-.global_nav_home.not_logged_in * #col1 div,
+.area-members.global_nav_home.not_logged_in * #col1 div,
 .global_nav_instances.not_logged_in * #col1 div {
   background-image: url("/static_theme/static/images/intro-picture.png");
   width: 1056px;
@@ -243,7 +243,7 @@ html #nav .hlist > ul > li.current > a {
 }
 
 /* place the login button at a better position and over the already existing "Anmelden" */
-.global_nav_home.not_logged_in * #col1 div a,
+.area-members.global_nav_home.not_logged_in * #col1 div a,
 .global_nav_instances.not_logged_in * #col1 div a {
   position: relative;
   top: 60px;
@@ -251,14 +251,14 @@ html #nav .hlist > ul > li.current > a {
 }
 
 /*hide other picture*/
-.global_nav_home.not_logged_in * #col1 div.form_wrapper,
+.area-members.global_nav_home.not_logged_in * #col1 div.form_wrapper,
 .global_nav_instances.not_logged_in * #col1 div.form_wrapper {
   background: inherit !important;
 }
 
 /* don't show submenus or "start" at the beginning */
-.global_nav_home.not_logged_in * .menu.hlist ul li ul.children ,
-.global_nav_home.not_logged_in * #nav_home,
+.area-members.global_nav_home.not_logged_in * .menu.hlist ul li ul.children ,
+.area-members.global_nav_home.not_logged_in * #nav_home,
 .global_nav_instances.not_logged_in * .menu.hlist ul li ul.children ,
 .global_nav_instances.not_logged_in * #nav_home {
   visibility: hidden !important;
@@ -266,13 +266,10 @@ html #nav .hlist > ul > li.current > a {
 
 
 /* make all links clickable in the footer */
-.global_nav_home.not_logged_in * #footer div.page_wrapper,
+.area-members.global_nav_home.not_logged_in * #footer div.page_wrapper,
 .global_nav_instances.not_logged_in * #footer div.page_wrapper {
   z-index: 9002; /* it's over 9000! */
 }
-
-
-
 /* if we show the background image before login -- END*/
 
 
