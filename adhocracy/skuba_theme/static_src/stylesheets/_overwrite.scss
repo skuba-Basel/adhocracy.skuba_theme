@@ -244,13 +244,15 @@ html #nav .hlist > ul > li.current > a {
 .area-members.global_nav_home.not_logged_in * #col1 div.form_wrapper {
   background: inherit !important;
 }
-.area-members.global_nav_home.not_logged_in * .menu.hlist ul li {
-  z-index: 9001; /* it's over 9000! */
+
+/* don't show submenus at the beginning */
+.area-members.global_nav_home.not_logged_in * .menu.hlist ul li ul.children {
+  visibility: hidden !important;
 }
 
-
+/* make all links clickable in the footer */
 .area-members.global_nav_home.not_logged_in * div.page_wrapper {
-  z-index: 9001; /* it's over 9000! */
+  z-index: 9002; /* it's over 9000 too! */
 }
 
 /* if we show the background image -- END*/
