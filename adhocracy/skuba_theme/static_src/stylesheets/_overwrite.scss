@@ -245,10 +245,12 @@ html #nav .hlist > ul > li.current > a {
   background: inherit !important;
 }
 
-/* don't show submenus at the beginning */
-.area-members.global_nav_home.not_logged_in * .menu.hlist ul li ul.children {
+/* don't show submenus or "start" at the beginning */
+.area-members.global_nav_home.not_logged_in * .menu.hlist ul li ul.children ,
+.area-members.global_nav_home.not_logged_in * #nav_home {
   visibility: hidden !important;
 }
+
 
 /* make all links clickable in the footer */
 .area-members.global_nav_home.not_logged_in * div.page_wrapper {
