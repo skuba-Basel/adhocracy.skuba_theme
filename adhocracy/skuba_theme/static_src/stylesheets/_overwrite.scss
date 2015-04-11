@@ -244,7 +244,8 @@ html #nav .hlist > ul > li.current > a {
 .area-members.global_nav_home.not_logged_in * #col1 div.form_wrapper {
   background: inherit !important;
 }
-.area-members.global_nav_home.not_logged_in * .menu.hlist ul li {
+.area-members.global_nav_home.not_logged_in * .menu.hlist ul li,
+.area-members.global_nav_home.not_logged_in * .footer_line * a {
   z-index: 9001; /* it's over 9000! */
 }
 
