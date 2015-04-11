@@ -218,7 +218,7 @@ html #nav .hlist > ul > li.current > a {
 
 /* if we show the background image before login -- BEGIN */
 /* hide any subheader */
-.global_nav_instances.not_logged_in * #subheader {
+.global_nav_instances.not_logged_in #subheader {
   height: 0 !important;
   visibility: collapse;
   display: none;
