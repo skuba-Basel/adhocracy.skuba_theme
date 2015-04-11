@@ -221,6 +221,7 @@ html #nav .hlist > ul > li.current > a {
 .not_logged_in * #subheader {
   height: 0 !important;
   visibility: collapse;
+  display: none;
 }
 
 /* adapt the height of the div with the picture */
