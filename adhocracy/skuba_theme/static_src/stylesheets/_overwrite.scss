@@ -218,12 +218,12 @@ html #nav .hlist > ul > li.current > a {
 
 /* if we show the background image -- BEGIN */
 /* adapt the height of the div with the picture */
-.area-members global_nav_home.not_logged_in * #col1 {
+.area-members.global_nav_home.not_logged_in * #col1 {
   height: 270px;
 }
 
 /* show the explaining picture*/
-.area-members global_nav_home.not_logged_in * #col1 div {
+.area-members.global_nav_home.not_logged_in * #col1 div {
   background-image: url("/static_theme/static/images/intro-picture.png");
   width: 1056px;
   height: 426px;
@@ -234,14 +234,14 @@ html #nav .hlist > ul > li.current > a {
 }
 
 /* place the login button at a better position and over the already existing "Anmelden" */
-.area-members global_nav_home.not_logged_in * #col1 div a {
+.area-members.global_nav_home.not_logged_in * #col1 div a {
   position: relative;
   top: 60px;
   width: 110px;
 }
 
 /*hide other picture*/
-.area-members global_nav_home.not_logged_in * #col1 div.form_wrapper {
+.area-members.global_nav_home.not_logged_in * #col1 div.form_wrapper {
   background: inherit !important;
 }
 /* if we show the background image -- END*/
