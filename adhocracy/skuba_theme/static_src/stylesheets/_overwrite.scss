@@ -266,8 +266,8 @@ html #nav .hlist > ul > li.current > a {
 
 
 /* make all links clickable in the footer */
-.area-members.global_nav_home.not_logged_in * #footer div.page_wrapper,
-.global_nav_instances.not_logged_in * #footer div.page_wrapper {
+.area-members.global_nav_home.not_logged_in * footer#footer div.page_wrapper,
+.global_nav_instances.not_logged_in * footer#footer div.page_wrapper {
   z-index: 9002; /* it's over 9000! */
 }
 /* if we show the background image before login -- END*/
