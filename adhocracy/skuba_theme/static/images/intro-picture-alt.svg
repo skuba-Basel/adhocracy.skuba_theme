@@ -469,19 +469,19 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.45254834"
-     inkscape:cx="-166.84376"
-     inkscape:cy="510.55364"
+     inkscape:zoom="0.64"
+     inkscape:cx="972.4586"
+     inkscape:cy="179.92985"
      inkscape:document-units="px"
-     inkscape:current-layer="g6980-3"
+     inkscape:current-layer="g6980-5"
      showgrid="false"
      fit-margin-top="0"
      fit-margin-left="0"
      fit-margin-right="0"
      fit-margin-bottom="0"
-     inkscape:window-width="1920"
-     inkscape:window-height="1028"
-     inkscape:window-x="0"
+     inkscape:window-width="1680"
+     inkscape:window-height="1023"
+     inkscape:window-x="1920"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
      showguides="false" />
@@ -763,10 +763,10 @@
         </g>
         <path
            style="fill:none;fill-rule:evenodd;stroke:#00fa00;stroke-width:15.64777088;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-           d="M 938.10494,646.58923 C 244.39073,900.80436 9.2823975,269.4585 253.8608,171.96854 321.46804,145.02001 869.16892,282.20014 730.70874,38.015656"
+           d="M 921.62422,731.39648 C 818.46973,715.76624 771.91641,696.28936 699.6018,703.17189 193.1292,751.37532 39.840419,257.27795 253.8608,171.96854 321.46804,145.02001 869.16892,282.20014 730.70874,38.015656"
            id="path4138-8"
            inkscape:connector-curvature="0"
-           sodipodi:nodetypes="csc"
+           sodipodi:nodetypes="cssc"
            transform="matrix(-0.46819632,0,0,0.51558323,1659.2098,273.55387)" />
         <path
            style="fill:none;fill-rule:evenodd;stroke:#00fa00;stroke-width:7.68804407;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
@@ -779,10 +779,10 @@
            style="stroke:#00fa00;stroke-opacity:1">
           <path
              style="fill:none;fill-rule:evenodd;stroke:#00fa00;stroke-width:15.64777088;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-             d="M 507.00977,622.64296 C 637.29273,291.30327 -957.75189,444.51432 -1197.0737,426.81132 c -59.1758,-4.37732 -75.0461,-103.16369 -40.0119,-162.9788"
+             d="m 285.60906,592.3457 c 88.33798,30.45609 124.94218,-29.94887 132.74983,-42.5843 55.74194,-303.92341 -1381.29531,-105.63059 -1615.43259,-122.95008 -59.1758,-4.37732 -75.0461,-103.16369 -40.0119,-162.9788"
              id="path4138-8-3-5"
              inkscape:connector-curvature="0"
-             sodipodi:nodetypes="csc"
+             sodipodi:nodetypes="ccsc"
              transform="matrix(0.45190126,0,0,0.45190126,193.40044,311.49099)" />
           <path
              style="fill:none;fill-rule:evenodd;stroke:#00fa00;stroke-width:7.07124758;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
@@ -1393,5 +1393,32 @@
         </g>
       </g>
     </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:125%;font-family:Univers;-inkscape-font-specification:Univers;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="231.43294"
+       y="716.90533"
+       id="text4380"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="231.43294"
+         y="716.90533"
+         style="font-size:22.5px"
+         id="tspan4384">Diese Plattform ermöglicht Dir eine </tspan><tspan
+         sodipodi:role="line"
+         x="231.43294"
+         y="745.03033"
+         style="font-size:22.5px"
+         id="tspan4390">einfache, schnelle und zeitunabhängige</tspan><tspan
+         sodipodi:role="line"
+         x="231.43294"
+         y="773.15533"
+         style="font-size:22.5px"
+         id="tspan4386">Diskussionsteilnahme bei der studentischen</tspan><tspan
+         sodipodi:role="line"
+         x="231.43294"
+         y="801.28033"
+         style="font-size:22.5px"
+         id="tspan4392">Hochschulpolitik an der Uni Basel.</tspan></text>
   </g>
 </svg>
